@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "976306974957",
+    "firebase_url": "https://perenoelsimulator.firebaseio.com",
+    "project_id": "perenoelsimulator",
+    "storage_bucket": "perenoelsimulator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976306974957:android:3dff88afad0ee34c",
+        "android_client_info": {
+          "package_name": "brable.perenoelsimulator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976306974957-tmb2gngk9sgducbdu8m7u3dg8ch14fon.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjhgtN-JolmR3n3zlZ6hsruqMD5R42lzw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

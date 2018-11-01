@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/backgpn"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/atelier"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/size30"
+        android:layout_marginTop="@dimen/verti10"
+        android:layout_gravity="center"/>
+
+
+
+    <TextView
+        android:id="@+id/tv11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="@string/niveau"
+        android:textSize="@dimen/size30"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text=""
+        android:textSize="@dimen/size20"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="@dimen/size20"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:contentDescription="@string/atelier"
+        android:id="@+id/workshop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cost"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size30"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="@dimen/size20"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="@dimen/buth180"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@drawable/custbuttons"
+        android:layout_height="@dimen/butv50"
+        android:layout_gravity="center"
+        android:textSize="@dimen/size15"
+        android:text="@string/upgrade"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="@dimen/verti10"
+        android:text="@string/line"
+        />
+
+    <TextView
+        android:id="@+id/tv13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/siege"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/size30"
+        android:layout_marginTop="@dimen/verti20"
+        android:layout_gravity="center"/>
+
+
+
+    <TextView
+        android:id="@+id/tv14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="@string/niveau"
+        android:textSize="@dimen/size30"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="@dimen/size20"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text=""
+        android:textSize="@dimen/size20"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:contentDescription="@string/siege"
+        android:id="@+id/headq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv15"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:text="@string/cost"
+        android:textSize="@dimen/size30"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text=""
+        android:textSize="@dimen/size20"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/but2"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@drawable/custbuttons"
+        android:layout_width="@dimen/buth180"
+        android:layout_height="@dimen/butv50"
+        android:textSize="@dimen/size15"
+        android:layout_gravity="center"
+        android:text="@string/upgrade"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/verti10"
+        android:textColor="@android:color/white"
+        android:text="@string/line"
+        />
+
+    <TextView
+        android:id="@+id/tv16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rd"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="@dimen/size30"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="@dimen/verti20"
+        android:layout_gravity="center"/>
+
+
+
+    <TextView
+        android:id="@+id/tv17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/niveau"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size30"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size30"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size20"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:contentDescription="@string/rd"
+        android:id="@+id/rd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cost"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size30"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size20"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/but3"
+        android:layout_width="@dimen/buth180"
+        android:textSize="@dimen/size15"
+        android:layout_height="@dimen/butv50"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@drawable/custbuttons"
+        android:layout_gravity="center"
+        android:text="@string/upgrade"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/verti10"
+        android:textColor="@android:color/white"
+        android:text="@string/line"
+        />
+
+    <Button
+        android:id="@+id/but4"
+        android:layout_width="@dimen/buth180"
+        android:textSize="@dimen/size15"
+        android:layout_height="@dimen/butv50"
+        android:text="@string/back"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@drawable/custbuttons"
+        android:layout_marginTop="@dimen/verti20"/>
+
+</LinearLayout>
+    </ScrollView>

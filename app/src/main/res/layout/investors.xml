@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/luge"
+    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/verti150"
+        android:textSize="@dimen/size30"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/sweetBlue"
+        android:textColor="@android:color/white"
+        android:text="@string/nope"/>
+
+    <Button
+        android:id="@+id/but31"
+        android:layout_width="@dimen/buth180"
+        android:layout_height="@dimen/butv50"
+        android:layout_gravity="center"
+        android:textSize="@dimen/size15"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@drawable/custbuttons"
+        android:layout_marginTop="@dimen/verti20"
+        android:text="@string/continuer"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adV1"
+        android:layout_marginTop="@dimen/verti150"
+        android:layout_gravity="center"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8018946824008626/4792111897"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+    </ScrollView>

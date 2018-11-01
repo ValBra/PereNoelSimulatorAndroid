@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/village"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dayT"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/darkBlue"
+            android:textColor="@android:color/white"
+            android:text="@string/jours"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/verti30"
+            android:textSize="@dimen/size30" />
+
+        <TextView
+            android:id="@+id/textJours"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/darkBlue"
+            android:textColor="@android:color/white"
+            android:text=""
+            android:textSize="@dimen/size20" />
+
+        <TextView
+            android:id="@+id/budT"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/darkBlue"
+            android:textColor="@android:color/white"
+            android:text="@string/budget"
+            android:textStyle="bold"
+            android:textSize="@dimen/size30" />
+
+        <TextView
+            android:id="@+id/textBud"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/darkBlue"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:text=""
+            android:textSize="@dimen/size20" />
+
+        <TextView
+            android:id="@+id/repT"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/darkBlue"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:text="@string/reputa"
+            android:textStyle="bold"
+            android:textSize="@dimen/size30" />
+
+        <TextView
+            android:id="@+id/textReput"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/darkBlue"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:text=""
+            android:textSize="@dimen/size20" />
+
+        <TextView
+            android:id="@+id/gifT"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/darkBlue"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:text="@string/cadeau"
+            android:textStyle="bold"
+            android:textSize="@dimen/size30" />
+
+        <TextView
+            android:id="@+id/textCad"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/darkBlue"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:text=""
+            android:textSize="@dimen/size20" />
+
+        <Button
+            android:id="@+id/but1"
+            android:layout_width="@dimen/buth200"
+            android:layout_height="@dimen/butv50"
+            android:textColor="@android:color/holo_red_dark"
+            android:background="@drawable/custbuttons"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/verti10"
+            android:textSize="@dimen/size15"
+            android:text="@string/finances" />
+
+        <Button
+            android:id="@+id/but3"
+            android:layout_width="@dimen/buth200"
+            android:layout_height="@dimen/butv50"
+            android:layout_gravity="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:background="@drawable/custbuttons"
+            android:layout_marginTop="@dimen/verti15"
+            android:textSize="@dimen/size15"
+            android:text="@string/lutins" />
+
+        <Button
+            android:id="@+id/but4"
+            android:layout_width="@dimen/buth200"
+            android:layout_height="@dimen/butv50"
+            android:textColor="@android:color/holo_red_dark"
+            android:background="@drawable/custbuttons"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/verti15"
+            android:textSize="@dimen/size15"
+            android:text="@string/infra" />
+
+        <Button
+            android:id="@+id/but5"
+            android:layout_width="@dimen/buth200"
+            android:layout_height="@dimen/butv50"
+            android:textColor="@android:color/holo_red_dark"
+            android:background="@drawable/custbuttons"
+            android:layout_gravity="center"
+            android:textSize="@dimen/size15"
+            android:layout_marginTop="@dimen/verti15"
+            android:text="@string/tour" />
+
+
+    </LinearLayout>
+</ScrollView>

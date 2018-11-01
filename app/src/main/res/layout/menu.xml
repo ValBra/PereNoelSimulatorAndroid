@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/backgpn"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Spinner
+        android:id="@+id/Spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@string/lang">
+    </Spinner>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:textSize="@dimen/size50"
+        android:layout_marginTop="@dimen/verti10"
+        android:text="@string/app_name"/>
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="@dimen/buth180"
+        android:layout_height="@dimen/butv50"
+        android:textSize="@dimen/size15"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/verti30"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@drawable/custbuttons"
+        android:text="@string/nouvellePartie"/>
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="@dimen/buth180"
+        android:layout_height="@dimen/butv50"
+        android:textSize="@dimen/size15"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@drawable/custbuttons"
+        android:layout_marginTop="@dimen/verti10"
+        android:text="@string/continuer"/>
+
+    <Button
+        android:id="@+id/but3"
+        android:layout_width="@dimen/buth180"
+        android:layout_height="@dimen/butv50"
+        android:textSize="@dimen/size15"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@drawable/custbuttons"
+        android:layout_marginTop="@dimen/verti10"
+        android:text="@string/credits"/>
+
+    <Button
+        android:id="@+id/but4"
+        android:layout_width="@dimen/buth180"
+        android:layout_height="@dimen/butv50"
+        android:textSize="@dimen/size15"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@drawable/custbuttons"
+        android:text="@string/noter"
+        android:layout_marginTop="@dimen/verti10" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:contentDescription="@string/ib"
+        android:layout_width="@dimen/buth35"
+        android:layout_height="@dimen/butv35"
+        android:layout_marginTop="@dimen/verti30"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/image" />
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/lutins"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/gob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/nbLut"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="@dimen/verti50"
+        android:textStyle="bold"
+        android:textSize="@dimen/size30" />
+
+    <TextView
+        android:id="@+id/textLut1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:text=""
+        android:textSize="@dimen/size20" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:text="@string/salParLut"
+        android:textStyle="bold"
+        android:textSize="@dimen/size30" />
+
+    <TextView
+        android:id="@+id/textLut2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:text=""
+        android:textSize="@dimen/size20" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/motivation"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size30" />
+
+    <TextView
+        android:id="@+id/textLut3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:text=""
+        android:textSize="@dimen/size20" />
+
+    <TextView
+        android:id="@+id/textLut4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/black"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="@dimen/size30" />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="@dimen/buth200"
+        android:layout_height="@dimen/butv50"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@drawable/custbuttons"
+        android:layout_marginTop="@dimen/verti20"
+        android:textSize="@dimen/size15"
+        android:layout_gravity="center"
+        android:text="@string/hire" />
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="@dimen/buth200"
+        android:layout_height="@dimen/butv50"
+        android:textSize="@dimen/size15"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/verti15"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@drawable/custbuttons"
+        android:text="@string/fire" />
+
+    <Button
+        android:id="@+id/but3"
+        android:layout_width="@dimen/buth200"
+        android:layout_height="@dimen/butv50"
+        android:textSize="@dimen/size15"
+        android:layout_marginTop="@dimen/verti15"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@drawable/custbuttons"
+        android:layout_gravity="center"
+        android:text="@string/salair" />
+
+    <Button
+        android:id="@+id/but4"
+        android:layout_width="@dimen/buth200"
+        android:textSize="@dimen/size15"
+        android:layout_height="@dimen/butv50"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@drawable/custbuttons"
+        android:layout_marginTop="@dimen/verti15"
+        android:layout_gravity="center"
+        android:text="@string/back" />
+
+</LinearLayout>
+    </ScrollView>

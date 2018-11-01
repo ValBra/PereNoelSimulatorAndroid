@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/backgpn"
+    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvxx1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size30"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/verti70"/>
+
+    <TextView
+        android:id="@+id/tvxx2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size30"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/verti10"/>
+
+    <TextView
+        android:id="@+id/tvxx3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size30"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/verti10"/>
+
+    <TextView
+        android:id="@+id/tvxx4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/size30"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/verti10"/>
+
+    <TextView
+        android:id="@+id/tvxx5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size30"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/verti10"/>
+
+    <Button
+        android:id="@+id/butxx1"
+        android:layout_width="@dimen/buth180"
+        android:layout_height="@dimen/butv50"
+        android:layout_gravity="center"
+        android:textSize="@dimen/size15"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@drawable/custbuttons"
+        android:layout_marginTop="@dimen/verti50"
+        android:text="@string/continuer"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adV1"
+        android:layout_marginTop="@dimen/verti80"
+        android:layout_gravity="center"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8018946824008626/4792111897"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+    </ScrollView>

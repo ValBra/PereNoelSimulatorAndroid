@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:rowCount="2" >
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_column="0"/>
+
+    <TextView
+        android:id="@+id/dayT"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/jours"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/verti30"
+        android:textSize="@dimen/size30" />
+
+    <TextView
+        android:id="@+id/textJours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:layout_marginLeft="@dimen/verti10"
+        android:layout_marginStart="@dimen/verti10"
+        android:layout_marginTop="@dimen/verti30"
+        android:textSize="@dimen/size30" />
+
+</GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/verti100">
+
+        <Button
+            android:layout_width="@dimen/buth200"
+            android:layout_height="@dimen/butv50"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="verti80">160dp</dimen>
+    <dimen name="verti30">60dp</dimen>
+    <dimen name="verti10">20dp</dimen>
+    <dimen name="verti15">30dp</dimen>
+    <dimen name="verti50">100dp</dimen>
+    <dimen name="verti70">140dp</dimen>
+    <dimen name="verti20">40dp</dimen>
+    <dimen name="verti100">200dp</dimen>
+    <dimen name="verti120">240dp</dimen>
+    <dimen name="verti130">260dp</dimen>
+    <dimen name="verti150">300dp</dimen>
+    <dimen name="verti290">580dp</dimen>
+    <dimen name="size30">60sp</dimen>
+    <dimen name="size40">80sp</dimen>
+    <dimen name="size20">40sp</dimen>
+    <dimen name="size25">50sp</dimen>
+    <dimen name="size15">30sp</dimen>
+    <dimen name="size50">100sp</dimen>
+    <dimen name="buth180">360dp</dimen>
+    <dimen name="buth200">400dp</dimen>
+    <dimen name="butv50">100dp</dimen>
+    <dimen name="buth35">70dp</dimen>
+    <dimen name="butv35">70dp</dimen>
+    <dimen name="pubh">480dp</dimen>
+    <dimen name="pubv">75dp</dimen>
+    <dimen name="eth">330dp</dimen>
+    <dimen name="spi">203dp</dimen>
+</resources>

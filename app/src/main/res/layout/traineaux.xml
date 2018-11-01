@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/traineau"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/verti50"
+        android:background="@color/green"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size30"
+        android:textStyle="bold"
+        android:text="@string/budget"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:textSize="@dimen/size20"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/green"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size25"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/ameliorer"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/verti10"
+        android:textColor="@android:color/black"
+        android:text="@string/line"
+        />
+
+    <Button
+        android:id="@+id/but11"
+        android:layout_width="@dimen/buth180"
+        android:layout_height="@dimen/butv50"
+        android:layout_marginTop="@dimen/verti10"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@drawable/custbuttons"
+        android:layout_gravity="center"
+        android:textSize="@dimen/size15"
+        android:text="@string/vit"/>
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/green"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size25"
+        android:gravity="center"
+        android:text="@string/vitEx"/>
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/green"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size25"
+        android:textStyle="bold"
+        android:text="@string/alleretour"/>
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/green"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size20"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:background="@color/green"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size25"
+        android:text="@string/cost"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/size20"
+        android:text=""/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/verti10"
+        android:textColor="@android:color/black"
+        android:text="@string/line"
+        />
+
+    <Button
+        android:id="@+id/but12"
+        android:layout_width="@dimen/buth180"
+        android:layout_height="@dimen/butv50"
+        android:layout_marginTop="@dimen/verti10"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@drawable/custbuttons"
+        android:textSize="@dimen/size15"
+        android:text="@string/cont"/>
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/green"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size25"
+        android:text="@string/contEx"/>
+
+    <TextView
+        android:id="@+id/t7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/size25"
+        android:background="@color/green"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="@string/contActu"/>
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:textSize="@dimen/size20"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/t8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:background="@color/green"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size25"
+        android:text="@string/cost"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/size20"
+        android:background="@color/green"
+        android:textColor="@android:color/white"
+        android:text=""/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/verti10"
+        android:textColor="@android:color/black"
+        android:text="@string/line"
+        />
+
+    <Button
+        android:id="@+id/but13"
+        android:layout_width="@dimen/buth180"
+        android:layout_height="@dimen/butv50"
+        android:layout_marginTop="@dimen/verti10"
+        android:textSize="@dimen/size15"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@drawable/custbuttons"
+        android:layout_gravity="center"
+        android:text="@string/appa"/>
+
+    <TextView
+        android:id="@+id/t9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/green"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size25"
+        android:text="@string/appaEx"/>
+
+    <TextView
+        android:id="@+id/t10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:background="@color/green"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size25"
+        android:text="@string/appaActu"/>
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:textSize="@dimen/size20"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/t11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/green"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size25"
+        android:textStyle="bold"
+        android:text="@string/cost"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/green"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size20"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/but14"
+        android:layout_width="@dimen/buth180"
+        android:layout_height="@dimen/butv50"
+        android:layout_marginTop="@dimen/verti30"
+        android:textSize="@dimen/size15"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@drawable/custbuttons"
+        android:text="@string/back"/>
+
+</LinearLayout>
+    </ScrollView>

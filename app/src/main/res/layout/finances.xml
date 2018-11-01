@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    android:id="@+id/flipp">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:background="@drawable/luge"
+        android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/sweetBlue"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:text="@string/budget"
+        android:layout_marginTop="@dimen/verti50"
+        android:textStyle="bold"
+        android:textSize="@dimen/size30" />
+
+    <TextView
+        android:id="@+id/textBud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/sweetBlue"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:text=""
+        android:textSize="@dimen/size20" />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="@dimen/buth200"
+        android:layout_height="@dimen/butv50"
+        android:layout_marginTop="@dimen/verti100"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@drawable/custbuttons"
+        android:layout_gravity="center"
+        android:textSize="@dimen/size15"
+        android:text="@string/banque" />
+
+    <Button
+        android:id="@+id/but3"
+        android:layout_width="@dimen/buth200"
+        android:layout_height="@dimen/butv50"
+        android:textSize="@dimen/size15"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@drawable/custbuttons"
+        android:text="@string/investisseurs" />
+
+    <Button
+        android:id="@+id/but5"
+        android:layout_width="@dimen/buth200"
+        android:layout_height="@dimen/butv50"
+        android:layout_marginTop="@dimen/verti15"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@drawable/custbuttons"
+        android:textSize="@dimen/size15"
+        android:layout_gravity="center"
+        android:text="@string/back" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adV1"
+        android:layout_marginTop="@dimen/verti100"
+        android:layout_gravity="center"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8018946824008626/4792111897"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+    </ScrollView>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:background="@drawable/luge"
+        android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:id="@+id/tvi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/consort"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/verti150"
+            android:background="@color/sweetBlue"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/size30"/>
+
+        <TextView
+            android:id="@+id/tvi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/sweetBlue"
+            android:textColor="@android:color/white"
+            android:text=""
+            android:layout_gravity="center"
+            android:textSize="@dimen/size20"/>
+
+        <TextView
+            android:id="@+id/tvi3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/sweetBlue"
+            android:textColor="@android:color/white"
+            android:text="@string/budget"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/verti20"
+            android:textStyle="bold"
+            android:textSize="@dimen/size30"/>
+
+        <TextView
+            android:id="@+id/tvi4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/sweetBlue"
+            android:textColor="@android:color/white"
+            android:text=""
+            android:layout_gravity="center"
+            android:textSize="@dimen/size20"/>
+
+        <Button
+            android:id="@+id/but4"
+            android:layout_width="@dimen/buth180"
+            android:layout_height="@dimen/butv50"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/verti15"
+            android:textColor="@android:color/holo_red_dark"
+            android:background="@drawable/custbuttons"
+            android:text="@string/continuer" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adV2"
+            android:layout_marginTop="@dimen/verti70"
+            android:layout_gravity="center"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-8018946824008626/4792111897"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    </ScrollView>
+    </ViewFlipper>

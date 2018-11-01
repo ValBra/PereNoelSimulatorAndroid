@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgpn"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="@string/credits"
+        android:textStyle="bold"
+        android:textSize="@dimen/size50"
+        android:gravity="center"
+        android:layout_margin="@dimen/verti20"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="@string/conception"
+        android:textSize="@dimen/size40"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/verti30"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:text="@string/valb"
+        android:textSize="@dimen/size30"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:text="@string/graphismes"
+        android:textSize="@dimen/size40"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/verti30"/>
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="@string/floj"
+        android:textSize="@dimen/size30"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:text="@string/trad"
+        android:textSize="@dimen/size40"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/verti30"/>
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/avalb"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size30"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:text="@string/julc"
+        android:textSize="@dimen/size30"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv13"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:text="@string/adbo"
+        android:textSize="@dimen/size30"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:text="@string/music"
+        android:textSize="@dimen/size40"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/verti30"/>
+
+    <TextView
+        android:id="@+id/tv14"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/magiks"
+        android:textSize="@dimen/size30"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv10"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/femtifire"
+        android:textSize="@dimen/size30"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="@string/real"
+        android:textSize="@dimen/size30"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/verti30"/>
+
+    <ImageView
+        android:contentDescription="@string/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/verti70"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logo_apps"/>
+
+    <TextView
+        android:id="@+id/tv12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/verti20"
+        android:textSize="@dimen/size30"
+        android:text="@string/error"/>
+
+</LinearLayout>
+</ScrollView>
