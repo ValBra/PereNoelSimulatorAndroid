@@ -7,8 +7,8 @@ android {
         applicationId "brable.perenoelsimulator"
         minSdkVersion 15
         targetSdkVersion 25
-        versionCode 6
-        versionName "Peanut Brittle"
+        versionCode 7
+        versionName "Chocolate Cookie"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
