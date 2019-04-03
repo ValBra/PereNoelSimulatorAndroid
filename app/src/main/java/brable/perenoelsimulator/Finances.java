@@ -13,10 +13,6 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.ViewFlipper;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
-
 import java.security.SecureRandom;
 
 import static brable.perenoelsimulator.Menu.snow;
@@ -53,17 +49,11 @@ import static brable.perenoelsimulator.Partie.salaires;
 public class Finances extends AppCompatActivity {
 
     int bud,rep,jou,det,pre,lut,sal,com,cad,ate,liv,ren;
-    private AdView adv;
     MediaPlayer ba,bu;
 
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.finances);
-        MobileAds.initialize(this,"ca-app-pub-8018946824008626/4792111897");
-
-        adv = (AdView) findViewById(R.id.adV1);
-        AdRequest adr = new AdRequest.Builder().build();
-        adv.loadAd(adr);
 
         startMusic();
 
@@ -109,10 +99,6 @@ public class Finances extends AppCompatActivity {
             button1.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v){
                     setContentView(R.layout.banque);
-
-                    adv = (AdView) findViewById(R.id.adV1);
-                    AdRequest adr = new AdRequest.Builder().build();
-                    adv.loadAd(adr);
 
                     TextView loan = (TextView) findViewById(R.id.loan);
                     TextView repay = (TextView) findViewById(R.id.repay);
@@ -182,10 +168,6 @@ public class Finances extends AppCompatActivity {
                     final ViewFlipper vf = (ViewFlipper) findViewById(R.id.flipp);
                     vf.showNext();
 
-                    adv = (AdView) findViewById(R.id.adV2);
-                    AdRequest adr = new AdRequest.Builder().build();
-                    adv.loadAd(adr);
-
                     TextView tvi1 = (TextView) findViewById(R.id.tvi1);
                     TextView tvi3 = (TextView) findViewById(R.id.tvi3);
 
@@ -217,10 +199,6 @@ public class Finances extends AppCompatActivity {
                 public void onClick(View v){
                     bu.start();
                     setContentView(R.layout.investors);
-
-                    adv = (AdView) findViewById(R.id.adV1);
-                    AdRequest adr = new AdRequest.Builder().build();
-                    adv.loadAd(adr);
 
                     TextView tv31 = (TextView) findViewById(R.id.tv31);
                     setFont(tv31,"ChiselMark.ttf");

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ViewFlipper
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:background="@android:color/white"
@@ -72,15 +71,6 @@
         android:layout_gravity="center"
         android:text="@string/back" />
 
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adV1"
-        android:layout_marginTop="@dimen/verti100"
-        android:layout_gravity="center"
-        ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-8018946824008626/4792111897"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
 </LinearLayout>
     </ScrollView>
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
@@ -145,15 +135,6 @@
             android:textColor="@android:color/holo_red_dark"
             android:background="@drawable/custbuttons"
             android:text="@string/continuer" />
-
-        <com.google.android.gms.ads.AdView
-            android:id="@+id/adV2"
-            android:layout_marginTop="@dimen/verti70"
-            android:layout_gravity="center"
-            ads:adSize="BANNER"
-            ads:adUnitId="ca-app-pub-8018946824008626/4792111897"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
 
     </LinearLayout>
     </ScrollView>

@@ -15,12 +15,8 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
-
 import static brable.perenoelsimulator.Menu.snow;
 import static brable.perenoelsimulator.Menu.startMusic;
-import static brable.perenoelsimulator.Menu.stopMusic;
 import static brable.perenoelsimulator.Partie.PREFS1;
 import static brable.perenoelsimulator.Partie.PREFS10;
 import static brable.perenoelsimulator.Partie.PREFS11;
@@ -67,7 +63,6 @@ public class Tour extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tour);
-        MobileAds.initialize(this,"ca-app-pub-8018946824008626/4792111897");
 
         startMusic();
 

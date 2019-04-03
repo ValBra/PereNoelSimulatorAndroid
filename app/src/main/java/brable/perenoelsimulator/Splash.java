@@ -31,7 +31,6 @@ public class Splash extends AppCompatActivity {
     protected static final int TIMER_RUNTIME = 10000;
     String defaultLang;
     Locale locale;
-    //GoogleApi api;
 
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);

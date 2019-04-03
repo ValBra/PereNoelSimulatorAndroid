@@ -7,7 +7,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:id="@+id/l1">
 
     <TextView
@@ -83,15 +82,6 @@
         android:background="@drawable/custbuttons"
         android:text="@string/continuer"
         android:layout_gravity="center"/>
-
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adV1"
-        android:layout_marginTop="@dimen/verti100"
-        android:layout_gravity="center"
-        ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-8018946824008626/4792111897"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
 </LinearLayout>
     </ScrollView>

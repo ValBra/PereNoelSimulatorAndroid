@@ -14,10 +14,6 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
-
 import static brable.perenoelsimulator.Menu.snow;
 import static brable.perenoelsimulator.Menu.startMusic;
 import static brable.perenoelsimulator.Partie.PREFS1;
@@ -51,13 +47,11 @@ import static brable.perenoelsimulator.Partie.toShow;
 public class Lutins extends AppCompatActivity {
 
     int lut,sal,mot,bud,com,cad,ate,liv,ren,gre;
-    private AdView adv;
     MediaPlayer bu;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.lutins);
-        MobileAds.initialize(this,"ca-app-pub-8018946824008626/4792111897");
 
         startMusic();
 
@@ -125,10 +119,6 @@ public class Lutins extends AppCompatActivity {
                 bu.start();
                 setContentView(R.layout.hire);
 
-                adv = (AdView) findViewById(R.id.adV1);
-                AdRequest adr = new AdRequest.Builder().build();
-                adv.loadAd(adr);
-
                 TextView tv1 = (TextView) findViewById(R.id.tv1);
                 tv1.setText(R.string.combien1);
                 setFont(tv1,"ChiselMark.ttf");
@@ -174,10 +164,6 @@ public class Lutins extends AppCompatActivity {
             public void onClick(View v){
                 bu.start();
                 setContentView(R.layout.hire);
-
-                adv = (AdView) findViewById(R.id.adV1);
-                AdRequest adr = new AdRequest.Builder().build();
-                adv.loadAd(adr);
 
                 TextView tv1 = (TextView) findViewById(R.id.tv1);
                 tv1.setText(R.string.combien2);
@@ -236,10 +222,6 @@ public class Lutins extends AppCompatActivity {
                 TextView tv1=(TextView)findViewById(R.id.tv1);
                 tv0.setBackgroundColor(getResources().getColor(R.color.sweetBlue));
                 tv1.setBackgroundColor(getResources().getColor(R.color.sweetBlue));
-                adv = (AdView) findViewById(R.id.adV1);
-                AdRequest adr = new AdRequest.Builder().build();
-                adv.loadAd(adr);
-
                 tv1.setText(R.string.modifSal);
                 setFont(tv1,"ChiselMark.ttf");
 

@@ -14,10 +14,6 @@ import android.widget.ProgressBar;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
-
 import static brable.perenoelsimulator.Partie.PREFS1;
 import static brable.perenoelsimulator.Partie.PREFS10;
 import static brable.perenoelsimulator.Partie.PREFS11;
@@ -69,20 +65,14 @@ public class Noel extends AppCompatActivity {
     protected ProgressBar pg1;
     boolean mbActive;
     int bud,lut,sal,jou,com,cad,ate,liv,ren,rep,det,tra,cont,vit,peo;
-    private AdView adv;
     MediaPlayer m,m2,bu;
 
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.noel);
-        MobileAds.initialize(this,"ca-app-pub-8018946824008626/4792111897");
         m = MediaPlayer.create(this,R.raw.fanfare);
         m2 = MediaPlayer.create(this,R.raw.disapoint);
         bu = MediaPlayer.create(this,R.raw.bouton);
-        adv = (AdView) findViewById(R.id.adV1);
-        AdRequest adr = new AdRequest.Builder().build();
-        adv.loadAd(adr);
-
         //startMusic();
 
         budg = getBaseContext().getSharedPreferences(PREFS1,MODE_PRIVATE);
@@ -153,10 +143,6 @@ public class Noel extends AppCompatActivity {
                 reinistialisation();
                 setContentView(R.layout.bilan);
                 ScrollView sv=(ScrollView) findViewById(R.id.sv1);
-
-                adv = (AdView) findViewById(R.id.adV1);
-                AdRequest adr = new AdRequest.Builder().build();
-                adv.loadAd(adr);
 
                 TextView tv1 = (TextView) findViewById(R.id.tv1);
                 int dis;

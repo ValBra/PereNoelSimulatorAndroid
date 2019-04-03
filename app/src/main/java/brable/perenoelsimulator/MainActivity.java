@@ -15,12 +15,6 @@ import android.widget.Button;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.InterstitialAd;
-import com.google.android.gms.ads.MobileAds;
-
 import java.security.SecureRandom;
 
 import static brable.perenoelsimulator.Menu.snow;
@@ -44,16 +38,12 @@ import static brable.perenoelsimulator.Partie.PREFS3;
 import static brable.perenoelsimulator.Partie.PREFS4;
 import static brable.perenoelsimulator.Partie.PREFS5;
 import static brable.perenoelsimulator.Partie.PREFS6;
-import static brable.perenoelsimulator.Partie.PREFS7;
 import static brable.perenoelsimulator.Partie.PREFS9;
 import static brable.perenoelsimulator.Partie.atelier;
 import static brable.perenoelsimulator.Partie.budg;
 import static brable.perenoelsimulator.Partie.cadeau;
 import static brable.perenoelsimulator.Partie.compteJours;
-import static brable.perenoelsimulator.Partie.contenance;
 import static brable.perenoelsimulator.Partie.day;
-import static brable.perenoelsimulator.Partie.design;
-import static brable.perenoelsimulator.Partie.dettes;
 import static brable.perenoelsimulator.Partie.exist;
 import static brable.perenoelsimulator.Partie.greve;
 import static brable.perenoelsimulator.Partie.livreurs;
@@ -61,7 +51,6 @@ import static brable.perenoelsimulator.Partie.lutins;
 import static brable.perenoelsimulator.Partie.motiv;
 import static brable.perenoelsimulator.Partie.note;
 import static brable.perenoelsimulator.Partie.people;
-import static brable.perenoelsimulator.Partie.pretEnCours;
 import static brable.perenoelsimulator.Partie.rd;
 import static brable.perenoelsimulator.Partie.rennes;
 import static brable.perenoelsimulator.Partie.reputation;
@@ -69,15 +58,10 @@ import static brable.perenoelsimulator.Partie.salaires;
 import static brable.perenoelsimulator.Partie.siege;
 import static brable.perenoelsimulator.Partie.toShow;
 import static brable.perenoelsimulator.Partie.traineau;
-import static brable.perenoelsimulator.Partie.vitesse;
 
 public class MainActivity extends AppCompatActivity {
 
     int bud, cad, jou, rep,lut,sal,com,ate,liv,ren,noting,bom,mot,tra,peo,gre,sie,rec,tos;
-    SecureRandom aleatoire = new SecureRandom();
-    int ale = aleatoire.nextInt(100)+1;
-    private AdView adv;
-    private InterstitialAd ia;
     MediaPlayer bu;
 
     @Override
@@ -310,10 +294,6 @@ public class MainActivity extends AppCompatActivity {
         MediaPlayer go = MediaPlayer.create(this,R.raw.disque);
         go.start();
 
-        adv = (AdView) findViewById(R.id.adV1);
-        AdRequest adr = new AdRequest.Builder().build();
-        adv.loadAd(adr);
-
         TextView tv1 = (TextView) findViewById(R.id.tv1);
         tv1.setTextSize(50);
         tv1.setText(R.string.gameOver);
@@ -345,25 +325,9 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent1 = new Intent(MainActivity.this,Menu.class);
                 startActivity(intent1);
 
-                AdRequest adr = new AdRequest.Builder().build();
-                ia = new InterstitialAd(MainActivity.this);
-                ia.setAdUnitId("ca-app-pub-8018946824008626/2142909581");
-                ia.loadAd(adr);
-                ia.setAdListener(new AdListener(){
-                    public void onAdLoaded(){
-                        displayInter();
-                    }
-                });
-
                 finish();
             }
         });
-    }
-
-    public void displayInter(){
-        if(ia.isLoaded()){
-            ia.show();
-        }
     }
 
     public void initialisation(){
