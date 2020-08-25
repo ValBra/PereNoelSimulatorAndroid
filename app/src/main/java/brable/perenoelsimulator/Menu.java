@@ -250,7 +250,7 @@ public class Menu extends AppCompatActivity{//implements GoogleApiClient.Connect
             }
         });
 
-        Spinner spinnerctrl;
+        /*Spinner spinnerctrl;
         spinnerctrl = (Spinner) findViewById(R.id.Spinner1);
 
         CustomAdapter customAdapter=new CustomAdapter(getApplicationContext(),flags,languages);
@@ -327,7 +327,7 @@ public class Menu extends AppCompatActivity{//implements GoogleApiClient.Connect
             public void onNothingSelected(AdapterView<?> arg0) {
                 // TODO Auto-generated method stub
             }
-        });
+        });*/
     }
 
     public void setFont(TextView textView, String fontName) {
